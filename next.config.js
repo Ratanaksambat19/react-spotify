@@ -3,4 +3,7 @@ module.exports = {
   typescript: {
     ignoreBuildError: true,
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
